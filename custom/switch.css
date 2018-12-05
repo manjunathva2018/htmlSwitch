@@ -1,0 +1,45 @@
+.switch-space{
+    background-color: red;
+    position: relative;
+    padding: 15px;
+    border-radius:10px;
+}
+
+.round-button-left{
+    position:absolute;
+    right:calc(100% - 30px);
+    /*right:135px;*/
+    /*left:0px*/
+    background-color: white;
+    border:1px solid black;
+    padding-right: 15px;
+    padding-left:15px;
+    padding-top:28px;
+    top:0px;
+    border-radius:10px;
+    transition-property:right,left;
+    transition-duration: 1s;
+}
+
+.round-button-right{
+    position:absolute;
+    right:0px;
+    /*right:0px*/
+    background-color: white;
+    border:1px solid black;
+    padding-right: 15px;
+    padding-left:15px;
+    padding-top:28px;
+    top:0px;
+    border-radius:10px;
+    transition-property: right,left;
+    transition-duration: 1s;
+}
+
+.top-margin{
+    margin-top: 20px;
+}
+
+.btn:focus {
+    outline: none !important;
+}
